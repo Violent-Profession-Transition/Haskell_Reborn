@@ -15,3 +15,13 @@ tailList = tail newList
 lastList = last newList
 
 lengthList = length newList
+
+tailOfTail = tail (tail (tail (tail (tail newList))))
+
+newList' = 99 : tail newList
+
+texasGauss = sum [1..100]
+
+oddNum = [1,3..100]
+
+takeInfList = take 10 [1,3..]
